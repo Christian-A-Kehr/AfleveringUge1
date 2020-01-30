@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: Facade.CustomerFacadeTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
+Facade.CustomerFacadeTest.testFindByLastName()  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Facade.CustomerFacade.findByLastName(CustomerFacade.java:44)
+	at Facade.CustomerFacadeTest.testFindByLastName(CustomerFacadeTest.java:78)
+
+Facade.CustomerFacadeTest.testGetNumberOfCustomers()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Facade.CustomerFacade.getNumberOfCustomers(CustomerFacade.java:55)
+	at Facade.CustomerFacadeTest.testGetNumberOfCustomers(CustomerFacadeTest.java:90)
+
+Facade.CustomerFacadeTest.testAddCustomer()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Facade.CustomerFacade.addCustomer(CustomerFacade.java:78)
+	at Facade.CustomerFacadeTest.testAddCustomer(CustomerFacadeTest.java:120)
+
+Facade.CustomerFacadeTest.testFindByID()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Facade.CustomerFacade.findByID(CustomerFacade.java:33)
+	at Facade.CustomerFacadeTest.testFindByID(CustomerFacadeTest.java:57)
+
+Facade.CustomerFacadeTest.testAllCustomers()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Facade.CustomerFacade.allCustomers(CustomerFacade.java:68)
+	at Facade.CustomerFacadeTest.testAllCustomers(CustomerFacadeTest.java:104)
+
